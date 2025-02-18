@@ -1,0 +1,111 @@
+
+:root{
+    --color-primary: #333333;
+    --color-secondary: #F8312F;
+    --color-tertiary: #F9C23C;
+    --color-quaternary: #0e001a;
+    --color-lightgray: #F2F2F2;
+    --color-indigo: #0f031a;
+    --color-high: #5B5B6E;
+    --color-side: #000000;
+    --color-orange: #FF8003;
+}
+
+body {
+    background-color: var(--color-orange);
+    color: var(--color-primary);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.bg-grey{
+    background-color: #333333;
+}
+.container.form {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    border-radius: 0%;
+}
+.form-control:hover{
+    border: 1px solid black;
+}
+.form-control:focus{
+    border:2px solid red;
+    box-shadow: none;
+}
+
+.site-button {
+    max-width: 210px;
+}
+#background-img{
+    background-size: cover; 
+    background-position: center;
+    height: 550px; 
+    overflow: hidden;
+    
+}
+
+#About{
+    text-align: center;
+    background-color: #F0EEFE;
+    padding: 6%;
+}
+#services{
+    background-color:#FFF5EB;
+    padding: 6%;
+}
+#container-fluid{
+    text-align: center;
+ padding-top: 5%;    
+}
+.bg-darkgrey{
+    background-color:  #333333;
+}
+form{
+    width: 500px;
+}
+.bg-lightsilver{
+    background-color:  #4F4E4C;
+}
+#contact{
+    background-color: #ffffff;
+    padding-top:5% ;
+}
+#button{
+    background:  #414141;
+    color: white;
+}
+#button:hover{
+    background: #ffffff;
+    color: black;
+    border: 2px solid black;
+
+
+}
+
+#toggler{
+    margin: 2%;
+}
+.col-md-6 {
+    padding-top: 30px;
+}
+.nav-link.fs-5:hover{
+    color: orange;
+}
+#row{
+    margin-right: 10%;
+}
+#svg {
+  width: 60%; 
+  padding-left: 0px; 
+}
+@media (min-width: 320px) {
+  #svg {
+    width: 60%;
+    margin-left: 20%; 
+    float: right;
+  }
+
+}
